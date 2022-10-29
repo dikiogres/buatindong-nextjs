@@ -4,7 +4,7 @@ const { jsx, Box, Container, Button, Image } = require ('theme-ui');
 // import { jsx, Box, Container, Button, Image } from 'theme-ui';
 import { rgba } from 'polished';
 import SectionHeading from '../components/section-heading';
-import illustration from 'assets/images/banner-illustration.png';
+import illustration from '../assets/images/banner-illustration.png';
 
 const Banner = () => {
   return (
@@ -13,12 +13,12 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Creativity starts with viewing the whole world differently"
-            description="A service agency with customer satisfaction"
+            title="Buat Website?"
+            description="Kami solusinya!"
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
-              <Button>Get Started</Button>
+              <Button>Mulai</Button>
             </Box>
             <Image src={illustration} alt="illustration" />
           </Box>

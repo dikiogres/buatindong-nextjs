@@ -3,7 +3,7 @@ const { ThemeProvider } = require ('theme-ui')
 import theme from '../theme';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
-// import Banner from 'sections/banner';
+import Banner from '../sections/banner';
 // import Services from 'sections/services';
 // import Testimonials from 'sections/testimonials';
 // import OurTeam from 'sections/our-team';
@@ -19,8 +19,8 @@ export default function IndexPage() {
         <SEO
           title="test"
           />
-        {/* <Banner />
-        <Services />
+        <Banner />
+        {/* <Services />
         <Testimonials />
         <OurTeam />
         <OtherServices />
