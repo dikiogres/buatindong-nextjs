@@ -9,7 +9,8 @@ import { DrawerContext } from '../../context/drawer/drawer-context';
 import Drawer from '../drawer';
 import Logo from '../logo';
 import menuItems from './header.data';
-import close from 'assets/images/icons/close.png';
+import close from '../../assets/images/icons/close.png';
+
 
 const DrawerNav = () => {
     const { state, dispatch }:any = useContext(DrawerContext);
