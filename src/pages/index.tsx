@@ -4,7 +4,7 @@ import theme from '../theme';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
 import Banner from '../sections/banner';
-// import Services from 'sections/services';
+import Services from '../sections/services';
 // import Testimonials from 'sections/testimonials';
 // import OurTeam from 'sections/our-team';
 // import OtherServices from 'sections/other-services';
@@ -20,8 +20,8 @@ export default function IndexPage() {
           title="test"
           />
         <Banner />
-        {/* <Services />
-        <Testimonials />
+        <Services />
+        {/* <Testimonials />
         <OurTeam />
         <OtherServices />
         <WhyUs />
