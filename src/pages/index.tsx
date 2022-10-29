@@ -9,8 +9,8 @@ import Testimonials from '../sections/testimonials';
 import OurTeam from '../sections/our-team';
 import OtherServices from '../sections/other-services';
 import WhyUs from '../sections/why-us';
-// import SubscribeUs from 'sections/subscribe-us';
-// import Blog from 'sections/blog';
+import SubscribeUs from '../sections/subscribe-us';
+// import Blog from '../sections/blog';
 
 export default function IndexPage() {
   return (
@@ -25,8 +25,8 @@ export default function IndexPage() {
         <OurTeam />
         <OtherServices />
         <WhyUs />
-        {/* <Blog />
-        <SubscribeUs /> */}
+        {/* <Blog /> */}
+        <SubscribeUs />
       </Layout>
     </ThemeProvider>
   );

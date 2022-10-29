@@ -5,10 +5,10 @@ const { jsx, Box, Container } = require ('theme-ui');
 import Masonry from 'react-masonry-component';
 import SectionHeading from '../components/section-heading';
 import BlogPost from '../components/cards/blog-post';
-import thumb1 from 'assets/images/blog/1.png';
-import thumb2 from 'assets/images/blog/2.png';
-import thumb3 from 'assets/images/blog/3.png';
-import thumb4 from 'assets/images/blog/4.png';
+import thumb1 from '../assets/images/blog/1.png';
+import thumb2 from '../assets/images/blog/2.png';
+import thumb3 from '../assets/images/blog/3.png';
+import thumb4 from '../assets/images/blog/4.png';
 
 const data = [
   {
