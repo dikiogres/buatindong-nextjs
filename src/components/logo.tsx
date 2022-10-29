@@ -3,12 +3,12 @@
 const { jsx } = require ('theme-ui');
 // import { jsx } from 'theme-ui';
 import { Link } from '../components/link';
-// import LogoSvg from 'components/icons/logo';
+import LogoSvg from './icons/logo';
 
 export default function Logo({ isSticky, footer, ...props }:any) {
   return (
     <Link path="/" sx={styles.logo} {...props}>
-      {/* <LogoSvg /> */}
+      <LogoSvg />
     </Link>
   );
 }
