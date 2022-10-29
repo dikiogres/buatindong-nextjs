@@ -1,7 +1,8 @@
+const { ThemeProvider } = require ('theme-ui')
 // import { ThemeProvider } from 'theme-ui';
-// import theme from '../theme';
-// import SEO from '../components/seo';
-// import Layout from 'components/layout';
+import theme from '../theme';
+import SEO from '../components/seo';
+import Layout from '../components/layout';
 // import Banner from 'sections/banner';
 // import Services from 'sections/services';
 // import Testimonials from 'sections/testimonials';
@@ -13,21 +14,20 @@
 
 export default function IndexPage() {
   return (
-    <h1>Debug</h1>
-    // <ThemeProvider theme={theme}>
-    //   <Layout>
-    //     <SEO
-    //       title="test"
-    //       />
-    //     <Banner />
-    //     <Services />
-    //     <Testimonials />
-    //     <OurTeam />
-    //     <OtherServices />
-    //     <WhyUs />
-    //     <Blog />
-    //     <SubscribeUs />
-    //   </Layout>
-    // </ThemeProvider>
+    <ThemeProvider theme={theme}>
+      <Layout>
+        <SEO
+          title="test"
+          />
+        {/* <Banner />
+        <Services />
+        <Testimonials />
+        <OurTeam />
+        <OtherServices />
+        <WhyUs />
+        <Blog />
+        <SubscribeUs /> */}
+      </Layout>
+    </ThemeProvider>
   );
 }
