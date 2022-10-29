@@ -5,7 +5,7 @@ const { jsx, Box, Container, Button } = require ('theme-ui')
 import Sticky from 'react-stickynode';
 import Logo from '../logo';
 import { NavLink } from '../link';
-import { DrawerProvider } from '../../contexts/drawer/drawer-provider';
+import { DrawerProvider } from '../../context/drawer/drawer-provider';
 import NavbarDrawer from './navbar-drawer';
 import menuItems from './header.data';
 import { Key } from 'react';
