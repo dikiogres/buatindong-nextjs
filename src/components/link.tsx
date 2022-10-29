@@ -1,6 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import NextLink from 'next/link';
+// const { jsx, Link as A } = require ('theme-ui');
 import { jsx, Link as A } from 'theme-ui';
 import { Link as MenuLink } from 'react-scroll';
 import { HiOutlineChevronRight } from 'react-icons/hi';

@@ -1,6 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Box, Image, Text, Heading } from 'theme-ui';
+const { jsx, Box, Image, Text, Heading } = require ('theme-ui')
+// import { jsx, Box, Image, Text, Heading } from 'theme-ui';
 import { LearnMore } from '../link';
 
 const Service = ({ item }:any) => {

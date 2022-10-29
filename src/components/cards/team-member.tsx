@@ -1,6 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Flex, Box, Image, Text, Heading, Link } from 'theme-ui';
+const { jsx, Flex, Box, Image, Text, Heading, Link } = require ('theme-ui');
+// import { jsx, Flex, Box, Image, Text, Heading, Link } from 'theme-ui';
 import { FaTwitter, FaGithub, FaDribbble } from 'react-icons/fa';
 import { Key } from 'react';
 

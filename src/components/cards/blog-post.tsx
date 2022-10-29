@@ -1,6 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Box, Flex, Image, Heading, Text } from 'theme-ui';
+const { jsx, Box, Flex, Image, Heading, Text } = require ('theme-ui')
+// import { jsx, Box, Flex, Image, Heading, Text } from 'theme-ui';
 import { rgba } from 'polished';
 import { Link } from '../link';
 
