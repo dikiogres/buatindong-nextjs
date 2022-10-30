@@ -1,11 +1,12 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Box, Container, Heading, Text, Image } from 'theme-ui';
+import { jsx, Box, Container, Heading, Text } from 'theme-ui';
+import Image from 'next/image';
 import Tabs, { TabPane } from 'rc-tabs';
 import { RiCheckboxCircleFill } from 'react-icons/ri';
 import { rgba } from 'polished';
 import { LearnMore } from '../components/link';
-import tabImage1 from '../assets/images/tab-illustration-1.png';
+import tabImage1 from '/public/assets/images/tab-illustration-1.png';
 
 const data = [
   {
