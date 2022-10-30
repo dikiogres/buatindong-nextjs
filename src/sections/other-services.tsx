@@ -11,21 +11,21 @@ import icon6 from '/public/assets/images/icons/service6.png';
 const data = [
   {
     id: 1,
-    icon: icon4,
+    icon: '/assets/images/icons/service4.png',
     moreLink: '#learn-more',
     title: 'Aplikasi Mobile',
     description: `Pembuatan aplikasi yang bisa berjalan di smartphone anda, baik untuk Android maupun iOS.`,
   },
   {
     id: 2,
-    icon: icon5,
+    icon: '/assets/images/icons/service5.png',
     moreLink: '#learn-more',
     title: 'Desain UI/UX',
     description: `Tidak bisa desain? jangan khawatir. Biar kami yang khawatir.`,
   },
   {
     id: 3,
-    icon: icon6,
+    icon: '/assets/images/icons/service6.png',
     moreLink: '#learn-more',
     title: 'Tugas dan Skripsi',
     description: `Selain bikin website kita juga bisa mengerjakan tugas dan skripsi kalian.`,
