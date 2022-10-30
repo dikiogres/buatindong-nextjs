@@ -12,7 +12,7 @@ const Logo = ({ white, ...props }:any) => {
           y2={20.44}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset={0} stopColor="#0096d9" />
+          <stop offset={0} stopColor="#000000" />
           <stop offset={1} stopColor="#00c198" />
         </linearGradient>
         <linearGradient
@@ -23,7 +23,7 @@ const Logo = ({ white, ...props }:any) => {
           y2={32.02}
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset={0} stopColor="#002dd9" />
+          <stop offset={0} stopColor="#000000" />
           <stop offset={1} stopColor="#00b2ab" />
         </linearGradient>
         <linearGradient
