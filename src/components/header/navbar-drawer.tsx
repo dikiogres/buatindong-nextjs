@@ -35,8 +35,8 @@ const DrawerNav = () => {
       open={state?.isOpen}
       toggleHandler={toggleHandler}
       closeButton={
-        <button sx={styles.closeButton}>
-          <Image src={'/public/assets/images/icons/close.png'} alt="close" />
+        <button >
+          <Image src={'/assets/images/icons/close.png'} alt="close" />
         </button>
       }
       maskStyle={styles.mask}
