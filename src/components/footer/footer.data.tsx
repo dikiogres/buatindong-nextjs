@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import facebook from 'assets/images/icons/facebook.png'
-import twitter from 'assets/images/icons/twitter.png';
-import github from 'assets/images/icons/github.png';
-import dribbble from 'assets/images/icons/dribbble.png';
+import facebook from '/public/assets/images/icons/facebook.png'
+import twitter from '/public/assets/images/icons/twitter.png';
+import github from '/public/assets/images/icons/github.png';
+import dribbble from '/public/assets/images/icons/dribbble.png';
 
 export const menuItems = [
   {
@@ -89,22 +89,22 @@ export const menuItems = [
     items: [
       {
         path: '#!',
-        icon: <Image src="assets/images/icons/facebook.png" alt="facebook"/>,
+        icon: <Image src="/public/assets/images/icons/facebook.png" alt="facebook"/>,
         label: 'Facebook',
       },
       {
         path: '#!',
-        icon: <Image src="assets/images/icons/twitter.png" alt="twitter"/>,
+        icon: <Image src="/public/assets/images/icons/twitter.png" alt="twitter"/>,
         label: 'Twitter',
       },
       {
         path: '#!',
-        icon: <Image src="assets/images/icons/github.png" alt="github"/>,
+        icon: <Image src="/public/assets/images/icons/github.png" alt="github"/>,
         label: 'Github',
       },
       {
         path: '#!',
-        icon: <Image src="assets/images/icons/dribbble.png" alt="dribbble"/>,
+        icon: <Image src="/public/assets/images/icons/dribbble.png" alt="dribbble"/>,
         label: 'Dribbble',
       },
     ],
