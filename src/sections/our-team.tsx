@@ -245,7 +245,7 @@ const OurTeam = () => {
             onClick={handlePrev}
             className="swiper-arrow swiper-arrow-left"
           >
-            <Image src={arrowRight} alt="arrow left" />
+            <Image src={"/assets/images/icons/arrow-right.png"} alt="arrow left" />
           </button>
         )}
         {!isEnd && (
@@ -253,7 +253,7 @@ const OurTeam = () => {
             className="swiper-arrow swiper-arrow-right"
             onClick={handleNext}
           >
-            <Image src={arrowRight} alt="arrow right" />
+            <Image src={"/assets/images/icons/arrow-right.png"} alt="arrow right" />
           </button>
         )}
 
