@@ -5,7 +5,7 @@ const { jsx, Box, Container } = require ('theme-ui');
 import Masonry from 'react-masonry-component';
 import SectionHeading from '../components/section-heading';
 import BlogPost from '../components/cards/blog-post';
-import thumb1 from '../assets/images/blog/1.png';
+import thumb1 from '/assets/images/blog/1.png';
 import thumb2 from '../assets/images/blog/2.png';
 import thumb3 from '../assets/images/blog/3.png';
 import thumb4 from '../assets/images/blog/4.png';
@@ -14,7 +14,7 @@ const data = [
   {
     id: 1,
     slug: '#how-to',
-    thumbnail: thumb1,
+    thumbnail: '/assets/images/blog/1.png',
     showDescription: true,
     title: `How to work with prototype design with adobe xd featuring tools`,
     description: `The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design`,
@@ -30,7 +30,7 @@ const data = [
   {
     id: 3,
     slug: '#how-to',
-    thumbnail: thumb3,
+    thumbnail: '/assets/images/blog/3.png',
     showDescription: false,
     title: `Multiple task wireframing with team management perform better`,
     description: `The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design`,
@@ -38,7 +38,7 @@ const data = [
   {
     id: 4,
     slug: '#how-to',
-    thumbnail: thumb2,
+    thumbnail: '/assets/images/blog/2.png',
     showDescription: true,
     title: `Multiple art board prototype with Figma`,
     description: `Beyond launched anti bias, a Chrome extension that replaces LinkedIn profile photos`,
@@ -46,7 +46,7 @@ const data = [
   {
     id: 5,
     slug: '#how-to',
-    thumbnail: thumb4,
+    thumbnail: '/assets/images/blog/4.png',
     showDescription: false,
     title: `Team presentation with latest user interface & experience reach more`,
     description: `The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design`,
