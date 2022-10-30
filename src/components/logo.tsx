@@ -9,7 +9,7 @@ import LogoSvg from '/public/assets/images/logo.png';
 export default function Logo({ isSticky, footer, ...props }:any) {
   return (
     <Link path="/" sx={styles.logo} {...props}>
-      <Image src='/public/assets/images/logo.png' alt="logo" width="182" height="37"/>
+      <Image src='/assets/images/logo.png' alt="logo" width="182" height="37"/>
     </Link>
   );
 }

@@ -13,19 +13,19 @@ import icon3 from '/public/assets/images/icons/service3.png';
 const data = [
   {
     id: 1,
-    icon: icon1,
+    icon: '/assets/images/icons/service1.png',
     title: 'E-Commerce',
     description: `Situs web yang dapat digunakan untuk jual beli secara online. Melalui situs web e-commerce, kamu sebagai pebisnis dapat memproses pesanan, menerima pembayaran, mengelola pengiriman dan logistik, serta menyediakan layanan dukungan pelanggan.`,
   },
   {
     id: 3,
-    icon: icon2,
+    icon: '/assets/images/icons/service2.png',
     title: 'Pemerintahan',
     description: `Situs website yang diperuntukan untuk penyebaran informasi dan pelayanan pemerintah kepada masyarakat. Bisa untuk sistem pemerintahan dari skala desa hingga nasional.`,
   },
   {
     id: 4,
-    icon: icon3,
+    icon: '/assets/images/icons/service3.png',
     title: 'Portofolio',
     description: `Portofolio digital yang dapat diakses melalui internet dengan tujuan untuk menunjukan karya dan bakat Anda. Pada website yang dibuat, Anda bisa menunjukkan bakat, keahlian dan pengalaman yang telah Anda miliki.`,
   },
@@ -42,7 +42,7 @@ const Services = () => {
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (
-            <Service key={item.id} item={item} />
+            <Service key={item.id} item={item}/>
           ))}
         </Box>
       </Container>

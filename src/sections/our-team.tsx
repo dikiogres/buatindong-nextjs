@@ -18,7 +18,7 @@ SwiperCore.use([Navigation, Pagination]);
 const data = [
   {
     id: 1,
-    avatar: avatar1,
+    avatar: '/assets/images/team/member1.png',
     name: 'Dzikri Syairozi',
     designation: 'Product Designer',
     socialLinks: [
@@ -38,7 +38,7 @@ const data = [
   },
   {
     id: 2,
-    avatar: avatar2,
+    avatar: '/assets/images/team/member2.png',
     name: 'Dzikri Syairozi',
     designation: 'Lead developer',
     socialLinks: [
@@ -54,7 +54,7 @@ const data = [
   },
   {
     id: 3,
-    avatar: avatar3,
+    avatar: '/assets/images/team/member3.png',
     name: 'Dzikri Syairozi',
     designation: 'Experience Designer',
     socialLinks: [
@@ -70,7 +70,7 @@ const data = [
   },
   {
     id: 4,
-    avatar: avatar4,
+    avatar: '/assets/images/team/member4.png',
     name: 'Dzikri Syairozi',
     designation: 'User interface designer',
     socialLinks: [
@@ -90,7 +90,7 @@ const data = [
   },
   {
     id: 5,
-    avatar: avatar1,
+    avatar: '/assets/images/team/member1.png',
     name: 'Dzikri Syairozi',
     designation: 'Front End Developer',
     socialLinks: [
@@ -110,7 +110,7 @@ const data = [
   },
   {
     id: 6,
-    avatar: avatar2,
+    avatar: '/assets/images/team/member2.png',
     name: 'Dzikri Syairozi',
     designation: 'Back End Developer',
     socialLinks: [
@@ -130,7 +130,7 @@ const data = [
   },
   {
     id: 7,
-    avatar: avatar3,
+    avatar: '/assets/images/team/member3.png',
     name: 'Dzikri Syairozi',
     designation: 'DevOps',
     socialLinks: [
@@ -150,7 +150,7 @@ const data = [
   },
   {
     id: 8,
-    avatar: avatar4,
+    avatar: '/assets/images/team/member4.png',
     name: 'Dzikri Syairozi',
     designation: 'Research Engineer',
     socialLinks: [
