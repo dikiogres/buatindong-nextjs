@@ -10,7 +10,7 @@ import illustration from '/public/assets/images/subscribe-bg.png';
 const SubscribeUs = () => {
   const [checked, setChecked] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e):any => {
     e.preventDefault();
     console.log('submitted.');
   };

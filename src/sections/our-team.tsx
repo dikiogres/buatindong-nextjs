@@ -1,7 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
+import {} from 'react'
 import { useRef, useState, useEffect } from 'react';
-import { jsx, Box, Container, Image } from 'theme-ui';
+import { jsx, Box, Container, Image, ThemeUIStyleObject } from 'theme-ui';
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionHeading from '../components/section-heading';
@@ -14,6 +15,14 @@ import avatar4 from '/public/assets/images/team/member4.png';
 import arrowRight from '/public/assets/images/icons/arrow-right.png';
 
 SwiperCore.use([Navigation, Pagination]);
+
+declare module 'react' {
+  interface Attributes {
+    ref?: ThemeUIStyleObject,
+    watchSlidesVisibility? : ThemeUIStyleObject,
+    swiper? : ThemeUIStyleObject,
+  }
+}
 
 const data = [
   {
