@@ -26,7 +26,7 @@ export default function IndexPage() {
         <OurTeam />
         <OtherServices />
         <WhyUs />
-        {/* <SubscribeUs /> */}
+        <SubscribeUs />
       </Layout>
     </ThemeProvider>
   );

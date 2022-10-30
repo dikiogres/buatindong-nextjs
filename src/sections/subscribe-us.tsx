@@ -5,7 +5,7 @@ import { jsx, Box, Container, Button, Flex, Checkbox, Label } from 'theme-ui';
 import { rgba } from 'polished';
 import SectionHeading from '../components/section-heading';
 import Input from '../components/input';
-import illustration from '../assets/images/subscribe-bg.png';
+import illustration from '/public/assets/images/subscribe-bg.png';
 
 const SubscribeUs = () => {
   const [checked, setChecked] = useState(false);
@@ -72,7 +72,7 @@ const styles = {
       'none',
       null,
       null,
-      `#F8F0EA url(${illustration}) no-repeat center bottom / contain`,
+      `#F8F0EA url('${illustration}') no-repeat center bottom / contain`,
     ],
     pt: [8, null, null, null, 10],
     pb: [8, null, null, 9, 11],
