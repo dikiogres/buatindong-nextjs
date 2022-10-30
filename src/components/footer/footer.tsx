@@ -18,12 +18,12 @@ export default function Footer() {
               <Logo />
             </Box>
             <Box sx={styles.terms}>
-              <Link path="#!">Terms of use</Link>
+              <Link path="#!">Syarat Penggunaan</Link>
               <Text as="span">|</Text>
-              <Link path="#!">Privacy</Link>
+              <Link path="#!">Privasi</Link>
             </Box>
             <Text as="p" sx={styles.copyright}>
-              Copyright by {new Date().getFullYear()} RedQ, Inc
+              Hak Cipta oleh {new Date().getFullYear()} Buatindong, inc
             </Text>
           </Box>
           {menuItems.map(({ id, title, items }:any) => (

@@ -6,79 +6,79 @@ import dribbble from '../../assets/images/icons/dribbble.png';
 export const menuItems = [
   {
     id: 2,
-    title: 'About Us',
+    title: 'Tentang Kami',
     items: [
       {
         path: '#!',
-        label: 'Support Center',
+        label: 'Pusat Bantuan',
       },
       {
         path: '#!',
-        label: 'Customer Support',
+        label: 'Bantuan Pelanggan',
       },
       {
         path: '#!',
-        label: 'About Us',
+        label: 'Tentang Kami',
       },
       {
         path: '#!',
-        label: 'Copyright',
+        label: 'Hak Cipta',
       },
       {
         path: '#!',
-        label: 'Popular Campaign',
+        label: 'Kampanye Populer',
       },
     ],
   },
   {
     id: 3,
-    title: 'Our Information',
+    title: 'Informasi',
     items: [
       {
         path: '#!',
-        label: 'Return Policy ',
+        label: 'Kebijakan Pengembalian',
       },
       {
         path: '#!',
-        label: 'Privacy Policy',
+        label: 'Kebijakan Pribadi',
       },
       {
         path: '#!',
-        label: 'Terms & Conditions',
+        label: 'Syarat & Ketentuan',
       },
       {
         path: '#!',
-        label: 'Site Map',
+        label: 'Peta Situs',
       },
       {
         path: '#!',
-        label: 'Store Hours',
+        label: 'Jam Layanan',
       },
     ],
   },
   {
     id: 4,
-    title: 'My Account',
+    title: 'Akun Kami',
     items: [
       {
         path: '#!',
-        label: 'Press inquiries',
+        label: 'Pertanyaan pers',
       },
       {
         path: '#!',
-        label: 'Social media ',
+        label: 'Media Sosial',
       },
       {
         path: '#!',
-        label: 'directories',
+        label: 'Direktori',
       },
       {
         path: '#!',
-        label: 'Images & B-roll',
+        label: 'Gambar & B-roll',
       },
       {
         path: '#!',
-        label: 'Permissions',
+        label: 'Perizinan',
       },
     ],
   },
@@ -113,19 +113,19 @@ export const menuItems = [
 export const footerNav = [
   {
     path: '#!',
-    label: 'Home',
+    label: 'Beranda',
   },
   {
     path: '#!',
-    label: 'Advertise',
+    label: 'Periklanan',
   },
   {
     path: '#!',
-    label: 'Supports',
+    label: 'Bantuan',
   },
   {
     path: '#!',
-    label: 'Marketing',
+    label: 'Pemasaran',
   },
   {
     path: '#!',
