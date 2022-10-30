@@ -191,6 +191,10 @@ const OurTeam = () => {
 
   const isEnd = swiperRef?.current?.swiper?.isEnd;
 
+  function clearInterval(message?: string) {
+    return message || '';
+  }
+
   const handlePrev = () => {
     swiperRef?.current?.swiper?.slidePrev();
     setInterval(() => {
