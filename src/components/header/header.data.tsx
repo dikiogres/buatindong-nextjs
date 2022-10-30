@@ -2,26 +2,26 @@
 export default [
   {
     path: 'home',
-    label: 'Home',
+    label: 'Beranda',
   },
   {
     path: 'services',
-    label: 'Services',
+    label: 'Layanan',
   },
   {
     path: 'team',
-    label: 'Team',
+    label: 'Tim',
   },
   {
     path: 'why-us',
-    label: 'Why Us',
+    label: 'Kami',
   },
   {
     path: 'blog',
-    label: 'Blog',
+    label: 'Langganan',
   },
   {
     path: 'login',
-    label: 'Login',
+    label: 'Masuk',
   },
 ];

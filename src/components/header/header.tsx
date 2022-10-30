@@ -28,11 +28,11 @@ export default function Header() {
                     ))}
                   </Box>
                   <Button variant="text" sx={styles.getStartedDesktop}>
-                    Get Started
+                    Mulai
                   </Button>
                 </Box>
                 <Button variant="text" sx={styles.getStartedMobile}>
-                  Get Started
+                  Mulai
                 </Button>
                 <NavbarDrawer />
               </Box>
