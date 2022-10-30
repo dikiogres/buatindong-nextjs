@@ -18,7 +18,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="test"
+          title="Buatindong"
           />
         <Banner />
         <Services />
