@@ -1,15 +1,16 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
+import Image from 'next/image'
 import { IoMdMenu } from 'react-icons/io';
 import React, { useContext } from 'react';
-const { jsx, Box, Image } = require ('theme-ui')
+const { jsx, Box} = require ('theme-ui')
 // import { jsx, Box, Image } from 'theme-ui';
 import { Link } from 'react-scroll';
 import { DrawerContext } from '../../context/drawer/drawer-context';
 import Drawer from '../drawer';
 import Logo from '../logo';
 import menuItems from './header.data';
-import close from '../../assets/images/icons/close.png';
+import close from '/assets/images/icons/close.png';
 
 
 const DrawerNav = () => {
@@ -35,7 +36,7 @@ const DrawerNav = () => {
       toggleHandler={toggleHandler}
       closeButton={
         <button sx={styles.closeButton}>
-          <Image src={close} alt="close" />
+          <Image src={'assets/images/icons/close.png'} alt="close" />
         </button>
       }
       maskStyle={styles.mask}

@@ -1,7 +1,8 @@
-import facebook from '../../assets/images/icons/facebook.png'
-import twitter from '../../assets/images/icons/twitter.png';
-import github from '../../assets/images/icons/github.png';
-import dribbble from '../../assets/images/icons/dribbble.png';
+import Image from 'next/image'
+import facebook from 'assets/images/icons/facebook.png'
+import twitter from 'assets/images/icons/twitter.png';
+import github from 'assets/images/icons/github.png';
+import dribbble from 'assets/images/icons/dribbble.png';
 
 export const menuItems = [
   {
@@ -88,22 +89,22 @@ export const menuItems = [
     items: [
       {
         path: '#!',
-        icon: facebook,
+        icon: <Image src="assets/images/icons/facebook.png"/>,
         label: 'Facebook',
       },
       {
         path: '#!',
-        icon: twitter,
+        icon: <Image src="assets/images/icons/twitter.png"/>,
         label: 'Twitter',
       },
       {
         path: '#!',
-        icon: github,
+        icon: <Image src="assets/images/icons/github.png"/>,
         label: 'Github',
       },
       {
         path: '#!',
-        icon: dribbble,
+        icon: <Image src="assets/images/icons/dribbble.png"/>,
         label: 'Dribbble',
       },
     ],

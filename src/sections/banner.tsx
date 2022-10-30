@@ -1,10 +1,11 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-const { jsx, Box, Container, Button, Image } = require ('theme-ui');
+const { jsx, Box, Container, Button} = require ('theme-ui');
 // import { jsx, Box, Container, Button, Image } from 'theme-ui';
+import Image from 'next/image';
 import { rgba } from 'polished';
 import SectionHeading from '../components/section-heading';
-import illustration from '../assets/images/banner-illustration.png';
+import illustration from 'assets/images/banner-illustration.png';
 
 const Banner = () => {
   return (
@@ -20,7 +21,7 @@ const Banner = () => {
             <Box sx={styles.buttonWrapper}>
               <Button>Mulai</Button>
             </Box>
-            <Image src={illustration} alt="illustration" />
+            <Image src='/assets/images/banner-illustration.png' alt="illustration" width="1084" height="563" />
           </Box>
         </Box>
       </Container>
