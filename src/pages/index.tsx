@@ -11,6 +11,7 @@ import OtherServices from '../sections/other-services';
 import WhyUs from '../sections/why-us';
 import SubscribeUs from '../sections/subscribe-us';
 // import Blog from '../sections/blog';
+// <Blog />
 
 export default function IndexPage() {
   return (
@@ -20,12 +21,11 @@ export default function IndexPage() {
           title="test"
           />
         <Banner />
-        {/* <Services />
+        <Services />
         <Testimonials />
-        <OurTeam />
+        {/* <OurTeam />
         <OtherServices />
         <WhyUs />
-        {/* <Blog /> }
         <SubscribeUs /> */}
       </Layout>
     </ThemeProvider>

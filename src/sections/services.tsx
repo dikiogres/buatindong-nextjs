@@ -1,30 +1,31 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Box, Container } from 'theme-ui';
+import Image from 'next/image';
 import { rgba } from 'polished';
 import SectionHeading from '../components/section-heading';
 import Service from '../components/cards/service';
-import icon1 from '../assets/images/icons/service1.png';
-import icon2 from '../assets/images/icons/service2.png';
-import icon3 from '../assets/images/icons/service3.png';
+import icon1 from 'assets/images/icons/service1.png';
+import icon2 from 'assets/images/icons/service2.png';
+import icon3 from 'assets/images/icons/service3.png';
 
 
 const data = [
   {
     id: 1,
-    icon: icon1,
+    icon: <Image src="/assets/images/icons/service1.png" alt="service1"/>,
     title: 'E-Commerce',
     description: `Situs web yang dapat digunakan untuk jual beli secara online. Melalui situs web e-commerce, kamu sebagai pebisnis dapat memproses pesanan, menerima pembayaran, mengelola pengiriman dan logistik, serta menyediakan layanan dukungan pelanggan.`,
   },
   {
     id: 3,
-    icon: icon2,
+    icon: <Image src="/assets/images/icons/service2.png" alt="service2"/>,
     title: 'Pemerintahan',
     description: `Situs website yang diperuntukan untuk penyebaran informasi dan pelayanan pemerintah kepada masyarakat. Bisa untuk sistem pemerintahan dari skala desa hingga nasional.`,
   },
   {
     id: 4,
-    icon: icon3,
+    icon: <Image src="/assets/images/icons/service4.png" alt="service4"/>,
     title: 'Portofolio',
     description: `Portofolio digital yang dapat diakses melalui internet dengan tujuan untuk menunjukan karya dan bakat Anda. Pada website yang dibuat, Anda bisa menunjukkan bakat, keahlian dan pengalaman yang telah Anda miliki.`,
   },
