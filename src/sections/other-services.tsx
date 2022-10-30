@@ -3,9 +3,9 @@
 import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from '../components/section-heading';
 import Service from '../components/cards/service';
-import icon4 from '../assets/images/icons/service4.png';
-import icon5 from '../assets/images/icons/service5.png';
-import icon6 from '../assets/images/icons/service6.png';
+import icon4 from '/public/assets/images/icons/service4.png';
+import icon5 from '/public/assets/images/icons/service5.png';
+import icon6 from '/public/assets/images/icons/service6.png';
 
 
 const data = [

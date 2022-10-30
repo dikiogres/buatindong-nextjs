@@ -7,11 +7,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionHeading from '../components/section-heading';
 import TeamMember from '../components/cards/team-member';
 
-import avatar1 from '../assets/images/team/member1.png';
-import avatar2 from '../assets/images/team/member2.png';
-import avatar3 from '../assets/images/team/member3.png';
-import avatar4 from '../assets/images/team/member4.png';
-import arrowRight from '../assets/images/icons/arrow-right.png';
+import avatar1 from '/public/assets/images/team/member1.png';
+import avatar2 from '/public/assets/images/team/member2.png';
+import avatar3 from '/public/assets/images/team/member3.png';
+import avatar4 from '/public/assets/images/team/member4.png';
+import arrowRight from '/public/assets/images/icons/arrow-right.png';
 
 SwiperCore.use([Navigation, Pagination]);
 
